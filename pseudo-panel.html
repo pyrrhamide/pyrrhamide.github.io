@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Séance 2 Pseudo-panels | Analyses longitudinales</title>
+  <meta name="description" content="Séance 2 Pseudo-panels | Analyses longitudinales" />
+  <meta name="generator" content="bookdown 0.21 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="Séance 2 Pseudo-panels | Analyses longitudinales" />
+  <meta property="og:type" content="book" />
+  
+  
+  
+  
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Séance 2 Pseudo-panels | Analyses longitudinales" />
+  
+  
+  
+
+<meta name="author" content="Kanto Fiaferana" />
+
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="pano.html"/>
+<link rel="next" href="mod-lin.html"/>
+<script src="libs/header-attrs-2.6/header-attrs.js"></script>
+<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="">Analyses longitudinales</a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Préface</a></li>
+<li class="chapter" data-level="1" data-path="pano.html"><a href="pano.html"><i class="fa fa-check"></i><b>1</b> Panorama des méthodes pour les analyses longitudinales</a>
+<ul>
+<li class="chapter" data-level="1.1" data-path="pano.html"><a href="pano.html#intérêt-des-études-longitudinales"><i class="fa fa-check"></i><b>1.1</b> Intérêt des études longitudinales</a></li>
+<li class="chapter" data-level="1.2" data-path="pano.html"><a href="pano.html#limites-des-études-longitudinales"><i class="fa fa-check"></i><b>1.2</b> Limites des études longitudinales</a></li>
+<li class="chapter" data-level="1.3" data-path="pano.html"><a href="pano.html#modélisations-sur-données-longitudinales-économétrie-des-panels-et-modèles-de-durée"><i class="fa fa-check"></i><b>1.3</b> Modélisations sur données longitudinales : économétrie des panels et modèles de durée</a></li>
+</ul></li>
+<li class="chapter" data-level="2" data-path="pseudo-panel.html"><a href="pseudo-panel.html"><i class="fa fa-check"></i><b>2</b> Pseudo-panels</a>
+<ul>
+<li class="chapter" data-level="2.1" data-path="pseudo-panel.html"><a href="pseudo-panel.html#application-des-modèles-linéaires-aux-pseudo-panels"><i class="fa fa-check"></i><b>2.1</b> Application des modèles linéaires aux pseudo-panels</a></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="mod-lin.html"><a href="mod-lin.html"><i class="fa fa-check"></i><b>3</b> Modèles linéaires</a>
+<ul>
+<li class="chapter" data-level="3.1" data-path="mod-lin.html"><a href="mod-lin.html#modèles-pooled-phase-1"><i class="fa fa-check"></i><b>3.1</b> Modèles <strong>pooled</strong> (phase 1)</a></li>
+<li class="chapter" data-level="3.2" data-path="mod-lin.html"><a href="mod-lin.html#modèles-à-effets-fixes-phase-2"><i class="fa fa-check"></i><b>3.2</b> Modèles à <strong>effets fixes</strong> (phase 2)</a></li>
+<li class="chapter" data-level="3.3" data-path="mod-lin.html"><a href="mod-lin.html#estimation-within-du-modèle-à-effet-fixe"><i class="fa fa-check"></i><b>3.3</b> Estimation “within” du modèle à effet fixe</a></li>
+<li class="chapter" data-level="3.4" data-path="mod-lin.html"><a href="mod-lin.html#présentation-article"><i class="fa fa-check"></i><b>3.4</b> Présentation article</a>
+<ul>
+<li class="chapter" data-level="3.4.1" data-path="mod-lin.html"><a href="mod-lin.html#objet-de-recherche"><i class="fa fa-check"></i><b>3.4.1</b> Objet de recherche</a></li>
+<li class="chapter" data-level="3.4.2" data-path="mod-lin.html"><a href="mod-lin.html#littératurerecherches-sur-le-sujet-et-leurs-limites"><i class="fa fa-check"></i><b>3.4.2</b> Littérature/recherches sur le sujet et leurs limites</a></li>
+<li class="chapter" data-level="3.4.3" data-path="mod-lin.html"><a href="mod-lin.html#questions-de-recherche"><i class="fa fa-check"></i><b>3.4.3</b> Questions de recherche</a></li>
+<li class="chapter" data-level="3.4.4" data-path="mod-lin.html"><a href="mod-lin.html#données-mobilisées"><i class="fa fa-check"></i><b>3.4.4</b> Données mobilisées</a></li>
+<li class="chapter" data-level="3.4.5" data-path="mod-lin.html"><a href="mod-lin.html#méthodologie"><i class="fa fa-check"></i><b>3.4.5</b> Méthodologie</a></li>
+<li class="chapter" data-level="3.4.6" data-path="mod-lin.html"><a href="mod-lin.html#résultats"><i class="fa fa-check"></i><b>3.4.6</b> Résultats</a></li>
+<li class="chapter" data-level="3.4.7" data-path="mod-lin.html"><a href="mod-lin.html#interprétation"><i class="fa fa-check"></i><b>3.4.7</b> Interprétation</a></li>
+<li class="chapter" data-level="3.4.8" data-path="mod-lin.html"><a href="mod-lin.html#conclusion"><i class="fa fa-check"></i><b>3.4.8</b> Conclusion</a></li>
+</ul></li>
+</ul></li>
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Analyses longitudinales</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="pseudo-panel" class="section level1" number="2">
+<h1><span class="header-section-number">Séance 2</span> Pseudo-panels</h1>
+<ul>
+<li>Répétition d’enquêtes “en coupe transversale”,</li>
+<li><strong>Avantage</strong> : échantillons représentatifs à chaque date (pas d’attrition, pas de déformation comme dans les cohortes),</li>
+<li><strong>Inconvénient</strong> : impossibilité de suivre les individus.</li>
+</ul>
+<p>Problème classique : effet d’âge v de génération.</p>
+<ul>
+<li>cf. étude des salaires mensuels moyens des ouvriers en fonction de l’âge (Baudelot et Gollac, 1997), extraits d’un échantillon permanent constitué à partir des déclarations annulles de salaires effectuées par les entreprises.</li>
+</ul>
+<p>Concrétement, il s’agit:</p>
+<ul>
+<li>d’empiler les éditions d’enquêtes,</li>
+<li>de conserver une variable d’âge au moment de l’enquête,</li>
+<li>de calculer une variable de génération.</li>
+</ul>
+<p>Plusieurs questions se posent:</p>
+<ul>
+<li>Quid de l’effet “période” ?</li>
+<li>Constitution <em>a posteriori</em> de cohortes (ici générations), mais:
+<ul>
+<li>nécessité de s’appuyer sur un critère stable dans le temps (mauvais exemple: salaire, situation du marché du travail),</li>
+<li>surveiller la consistance des cohortes,</li>
+<li>surveiller la taille des cohortes,</li>
+<li>attention à l’attrition (e.g. décès)</li>
+</ul></li>
+</ul>
+<div id="application-des-modèles-linéaires-aux-pseudo-panels" class="section level2" number="2.1">
+<h2><span class="header-section-number">2.1</span> Application des modèles linéaires aux pseudo-panels</h2>
+<p>Rappel: modélisation avec un effet fixe individuel au modèle linéaire classique, censé capter l’effet des caractéristiques individuelles constantes dans le temps sur la variable d’intérêt.
+<span class="math display">\[y_{i,t}=x_{i,t}\beta + \alpha_i + \epsilon_{i,t} \quad i = 1,...,N \quad t=1,...,T\]</span></p>
+<ul>
+<li><span class="math inline">\(y_{i,t}\)</span> = variable d’intérêt,</li>
+<li><span class="math inline">\(x_{i,t}\)</span> = vecteur (ligne) de K variables explicatives observées sur l’individu <span class="math inline">\(i\)</span> à la date <span class="math inline">\(t\)</span>,</li>
+<li><span class="math inline">\(\beta\)</span> = effet de ces variables (soit un vecteur de paramètres de dimension K),</li>
+<li><span class="math inline">\(\alpha_i\)</span> = effet fixe individuel.</li>
+</ul>
+<p><em>Principe de l’application aux pseudo-panels</em></p>
+<ul>
+<li>suivre dans le temps non plus les individus, mais des <strong>cohortes</strong>, càd des groupes d’individus partageant un E de caractéristiques fixes dans le temps,</li>
+<li>modéliser au niveau de ces cohortes d’individus et non plus au niveau des individus qui les composent,</li>
+<li>remplacer les variables observées par les moyennes de ces variables au sein de chaque cohorte.</li>
+</ul>
+<p>Formellement, on s’intéresse à <span class="math inline">\(y^\star_{c,t}=E(y_{i,t} | i \in c,t)\)</span>, espérance de la variable d’intérêt sur la cohorte <span class="math inline">\(c\)</span> à la date <span class="math inline">\(t\)</span>.<br />
+On obtient en effet à partir du modèle précédent (en l’intégrant conditionnellement à la date et à la cohorte):
+<span class="math display">\[y^\star_{c,t}=x^\star_{c,t}\beta + \alpha_{c,t}^\star + \epsilon_{c,t}^\star \quad c=1,...,C \quad t=1,...,T\]</span>
+où pour chaque variable <span class="math inline">\(z\)</span>, <span class="math inline">\(z_{c,t}^\star = E(z_{c,t}|i \in c,t)\)</span>.</p>
+<p>Problèmes:</p>
+<ul>
+<li>les <span class="math inline">\(z_{c,t}^\star = E(z_{c,t}|i \in c,t)\)</span> ne sont pas connus,
+<ul>
+<li>on utilise <span class="math inline">\(\bar y_{c,t} = \frac{1}{n_{c,t}} \sum_{i \in c,t} y_{i,t} \quad \bar x_{c,t} = \frac{1}{n_{c,t}} \sum_{i \in c,t}x_{i,t}\)</span> et,</li>
+</ul></li>
+<li>fluctuation d’échantillonnage des individus d’une cohorte d’une date à une autre,</li>
+<li>stabilité des cohortes à surveiller.</li>
+</ul>
+<p>In fine:</p>
+<ul>
+<li>Modèle estimé: <span class="math inline">\(\bar y_{c,t}=\bar x_{c,t}\beta + \bar \alpha_c + \bar \epsilon_{c,t} \quad t=1,...,T \quad c=1,...,C\)</span></li>
+</ul>
+
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="pano.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="mod-lin.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": null,
+"text": null
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
+},
+"download": null,
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    var src = "true";
+    if (src === "" || src === "true") src = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML";
+    if (location.protocol !== "file:")
+      if (/^https?:/.test(src))
+        src = src.replace(/^https?:/, '');
+    script.src = src;
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+</body>
+
+</html>

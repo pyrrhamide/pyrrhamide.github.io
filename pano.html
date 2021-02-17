@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Séance 1 Panorama des méthodes pour les analyses longitudinales | Analyses longitudinales</title>
+  <meta name="description" content="Séance 1 Panorama des méthodes pour les analyses longitudinales | Analyses longitudinales" />
+  <meta name="generator" content="bookdown 0.21 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="Séance 1 Panorama des méthodes pour les analyses longitudinales | Analyses longitudinales" />
+  <meta property="og:type" content="book" />
+  
+  
+  
+  
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Séance 1 Panorama des méthodes pour les analyses longitudinales | Analyses longitudinales" />
+  
+  
+  
+
+<meta name="author" content="Kanto Fiaferana" />
+
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="index.html"/>
+<link rel="next" href="pseudo-panel.html"/>
+<script src="libs/header-attrs-2.6/header-attrs.js"></script>
+<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="">Analyses longitudinales</a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Préface</a></li>
+<li class="chapter" data-level="1" data-path="pano.html"><a href="pano.html"><i class="fa fa-check"></i><b>1</b> Panorama des méthodes pour les analyses longitudinales</a>
+<ul>
+<li class="chapter" data-level="1.1" data-path="pano.html"><a href="pano.html#intérêt-des-études-longitudinales"><i class="fa fa-check"></i><b>1.1</b> Intérêt des études longitudinales</a></li>
+<li class="chapter" data-level="1.2" data-path="pano.html"><a href="pano.html#limites-des-études-longitudinales"><i class="fa fa-check"></i><b>1.2</b> Limites des études longitudinales</a></li>
+<li class="chapter" data-level="1.3" data-path="pano.html"><a href="pano.html#modélisations-sur-données-longitudinales-économétrie-des-panels-et-modèles-de-durée"><i class="fa fa-check"></i><b>1.3</b> Modélisations sur données longitudinales : économétrie des panels et modèles de durée</a></li>
+</ul></li>
+<li class="chapter" data-level="2" data-path="pseudo-panel.html"><a href="pseudo-panel.html"><i class="fa fa-check"></i><b>2</b> Pseudo-panels</a>
+<ul>
+<li class="chapter" data-level="2.1" data-path="pseudo-panel.html"><a href="pseudo-panel.html#application-des-modèles-linéaires-aux-pseudo-panels"><i class="fa fa-check"></i><b>2.1</b> Application des modèles linéaires aux pseudo-panels</a></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="mod-lin.html"><a href="mod-lin.html"><i class="fa fa-check"></i><b>3</b> Modèles linéaires</a>
+<ul>
+<li class="chapter" data-level="3.1" data-path="mod-lin.html"><a href="mod-lin.html#modèles-pooled-phase-1"><i class="fa fa-check"></i><b>3.1</b> Modèles <strong>pooled</strong> (phase 1)</a></li>
+<li class="chapter" data-level="3.2" data-path="mod-lin.html"><a href="mod-lin.html#modèles-à-effets-fixes-phase-2"><i class="fa fa-check"></i><b>3.2</b> Modèles à <strong>effets fixes</strong> (phase 2)</a></li>
+<li class="chapter" data-level="3.3" data-path="mod-lin.html"><a href="mod-lin.html#estimation-within-du-modèle-à-effet-fixe"><i class="fa fa-check"></i><b>3.3</b> Estimation “within” du modèle à effet fixe</a></li>
+<li class="chapter" data-level="3.4" data-path="mod-lin.html"><a href="mod-lin.html#présentation-article"><i class="fa fa-check"></i><b>3.4</b> Présentation article</a>
+<ul>
+<li class="chapter" data-level="3.4.1" data-path="mod-lin.html"><a href="mod-lin.html#objet-de-recherche"><i class="fa fa-check"></i><b>3.4.1</b> Objet de recherche</a></li>
+<li class="chapter" data-level="3.4.2" data-path="mod-lin.html"><a href="mod-lin.html#littératurerecherches-sur-le-sujet-et-leurs-limites"><i class="fa fa-check"></i><b>3.4.2</b> Littérature/recherches sur le sujet et leurs limites</a></li>
+<li class="chapter" data-level="3.4.3" data-path="mod-lin.html"><a href="mod-lin.html#questions-de-recherche"><i class="fa fa-check"></i><b>3.4.3</b> Questions de recherche</a></li>
+<li class="chapter" data-level="3.4.4" data-path="mod-lin.html"><a href="mod-lin.html#données-mobilisées"><i class="fa fa-check"></i><b>3.4.4</b> Données mobilisées</a></li>
+<li class="chapter" data-level="3.4.5" data-path="mod-lin.html"><a href="mod-lin.html#méthodologie"><i class="fa fa-check"></i><b>3.4.5</b> Méthodologie</a></li>
+<li class="chapter" data-level="3.4.6" data-path="mod-lin.html"><a href="mod-lin.html#résultats"><i class="fa fa-check"></i><b>3.4.6</b> Résultats</a></li>
+<li class="chapter" data-level="3.4.7" data-path="mod-lin.html"><a href="mod-lin.html#interprétation"><i class="fa fa-check"></i><b>3.4.7</b> Interprétation</a></li>
+<li class="chapter" data-level="3.4.8" data-path="mod-lin.html"><a href="mod-lin.html#conclusion"><i class="fa fa-check"></i><b>3.4.8</b> Conclusion</a></li>
+</ul></li>
+</ul></li>
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Analyses longitudinales</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="pano" class="section level1" number="1">
+<h1><span class="header-section-number">Séance 1</span> Panorama des méthodes pour les analyses longitudinales</h1>
+<p>Beaucoup de phénomènes sociaux et économiques sont dynamiques :</p>
+<ul>
+<li>étude de l’évolution du salaire,</li>
+<li>étude de la mobilité géographique ou professionnelle,</li>
+<li>insertion sur le marché du travail,</li>
+<li>évolution des pratiques culturelles.</li>
+</ul>
+<p>L’étude longitudinale permet d’intégrer le temps dans une étude sociologique.</p>
+<p>Deux types d’études:</p>
+<ul>
+<li>études transversales ou en coupe (<em>cross sectional</em>)
+<ul>
+<li>mesure d’une variable sur un groupe de personnes à un instant <span class="math inline">\(t\)</span>,</li>
+<li>photo ponctuelle de la société.</li>
+</ul></li>
+<li>études longitudinales
+<ul>
+<li>série de mesures sur un groupe d’individus fixes à plusieurs instants,</li>
+<li>constitution d’un “panel”,</li>
+<li>film sur un laps de temps d’un phénomène social.</li>
+</ul></li>
+</ul>
+<p>Pour les études longitudinales, trois façons différentes de collecter des données longitudinales:</p>
+<ul>
+<li>la première est <strong>rétrospective</strong>: elle consiste à interroger les individus sur leur passé afin de reconstituer des séquences d’évènements.</li>
+<li>la seconde est <strong>prospective</strong>: elle procède par la répétition d’un protocole d’enquête sur les mêmes individus au cours du temps.</li>
+<li>la troisième consiste à <strong>relier a posteriori des données administratives</strong> enregistrées pour différents évènements de la vie des individus.</li>
+</ul>
+<div id="intérêt-des-études-longitudinales" class="section level2" number="1.1">
+<h2><span class="header-section-number">1.1</span> Intérêt des études longitudinales</h2>
+<p>Les données de panels permettent d’étudier la dynamique des trajectoires individuelles et des comportements.</p>
+<ul>
+<li>contrôler l’hétérogénéité inter-individuelle: l’analyse longitudinale permet de mettre en évidence beaucoup plus facilement des variables cachées qui peuvent biaiser une régression faite en analyse transversale.</li>
+<li>étudier la dynamique d’ajustement: par exemple, si une analyse transversale peut montrer qu’une part importante de la population est au chômage, une analyse longitudinale peut montrer que ce ne sont pas les mêmes personnes qui restent au chômage et qu’il existe un turnover important. Les conclusions sont vraiment différentes.</li>
+<li>Analyses causales (e.g. Mirna Safi, “La dimension socioéconomique de l’intégration des immigrés en France: participation au marché du travail”).</li>
+</ul>
+</div>
+<div id="limites-des-études-longitudinales" class="section level2" number="1.2">
+<h2><span class="header-section-number">1.2</span> Limites des études longitudinales</h2>
+<p>Le plus évident: le coût et les moyens énormes nécessaires à la mise en place d’une telle étude.</p>
+<p><strong>Représentativité statistique</strong>: l’une des exigences pour une étude statistique est d’être représentative pour la société. Or comme la société évolue, un panel représentatif à un instant <span class="math inline">\(t\)</span> ne le sera peut-être plus 10 ans plus tard. Solution: panel rotatif (on renouvelle les individus du panel régulièrement).</p>
+<p><strong>Attrition</strong>: perte de données au cours de l’enquête. Panel cylindré = pas de perte, à chaque temps <span class="math inline">\(t\)</span>, le nombre de mesure est le même. En pratique, impossible à mettre en place. Plusieurs difficultés: les volontaires peuvent se lasser de répondre aux enquêtes. Le suivi géographique des interrogés peut être compliqué: déménagement, départ à l’étranger, décès. Ces évènements peuvent être corrélés avec une caractéristique sociologique, un biais peut donc s’installer et se renforcer au cours du temps.</p>
+</div>
+<div id="modélisations-sur-données-longitudinales-économétrie-des-panels-et-modèles-de-durée" class="section level2" number="1.3">
+<h2><span class="header-section-number">1.3</span> Modélisations sur données longitudinales : économétrie des panels et modèles de durée</h2>
+<p>Dans les travaux empiriques en sciences sociales, deux principales familles de méthodes sont le plus souvent utilisées pour analyser les données longitudinales: l’économétrie des panels et les modèles de durée.</p>
+<p>Modèle transversal de régression (qu’elle soit linéaire ou dichotomique) s’intéresse aux différences interindividuelles:</p>
+<ul>
+<li><span class="math inline">\(Y_i = X_i \beta + \mu_i\)</span> (où <span class="math inline">\(i\)</span> fait référence à l’individu).</li>
+</ul>
+<p>Les données de panel varient quant à elles dans deux dimensions : la dimension interindividuelle et la dimension intraindividuelle ou temporelle.</p>
+<ul>
+<li><span class="math inline">\(Y_{i,t} = X_{i,t} \beta + \mu_{i,t}\)</span> (où chaque variable est indexée à la fois par individu et par période).</li>
+</ul>
+<p>Quant aux modèles de durée, connus dans la littérature par l’expression <em>Event History Analysis</em>, ils désignent un ensemble de méthodes qui traitent les données longitudinales dans une <strong>optique d’occurence ou non de certains évènements</strong>.</p>
+<p>Dans la majorité de leurs applications, ces méthodes visent donc à analyser la durée dans un état ou encore la transition d’un état à l’autre (appelée parfois risque):</p>
+<ul>
+<li>des évènements démographiques (mariage, mise en couple, divorce, etc.),</li>
+<li>ou socioéconomiques (chômage, participation sur le marché du travail, passage à la retraite, etc.).</li>
+</ul>
+<p>Dans chaque cas, la population prise en compte dans l’analyse est celle susceptible de connaître l’évènement; il s’agit de la population à risque. Ainsi, pour analyser le divorce dans une optique de type <em>Event History Analysis</em>, il faut se limiter aux individus mariés à un instant <span class="math inline">\(t\)</span>; de même pour étudier la participation des femmes sur le marché du travail, seules celles inactives à un instant <span class="math inline">\(t\)</span> sont incluses dans l’échantillon, etc.</p>
+
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="index.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="pseudo-panel.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": null,
+"text": null
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
+},
+"download": null,
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    var src = "true";
+    if (src === "" || src === "true") src = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML";
+    if (location.protocol !== "file:")
+      if (/^https?:/.test(src))
+        src = src.replace(/^https?:/, '');
+    script.src = src;
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+</body>
+
+</html>
