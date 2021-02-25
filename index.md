@@ -40,4 +40,4 @@ Having trouble with Pages? Check out our [documentation](https://docs.github.com
 
 [Régressions](https://pyrrhamide.github.io/regressions)
 
-[Analyses longitudinales](https://pyrrhamide.github.io/an-long)
+[Analyses longitudinales](https://pyrrhamide.github.io/analyses-longitudinales)
