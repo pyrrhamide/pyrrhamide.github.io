@@ -21,5 +21,3 @@ One last word: the notes are in French. I love English, but not to the point of 
 [Régressions](https://pyrrhamide.github.io/regressions)
 
 [Analyses longitudinales](https://pyrrhamide.github.io/analyses-longitudinales)
-
-``<iframe src="https://open.spotify.com/embed/track/5EeZuhVQdnUkpCiknMTeoP" width="300" height="80" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>``
