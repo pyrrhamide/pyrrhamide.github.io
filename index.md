@@ -24,4 +24,4 @@ One last word: the notes are in French. I love English, but not to the point of 
 
 ### De la musique 
 
-`<iframe src="https://open.spotify.com/embed/playlist/50mTEASBDhzvJy34lAmUh2" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>`
+<iframe src="https://open.spotify.com/embed/playlist/50mTEASBDhzvJy34lAmUh2" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
