@@ -1,4 +1,7 @@
 ### About moi
+
+<iframe src="https://open.spotify.com/embed/track/1mgWnqeUOurHJIyorDtuqF" width="300" height="80" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+
 I am currently a postgraduate student in Quantified Social Sciences, having previously studied Politics and Quantitative Methods.
 
 I am French. I love tattoos, rugby, reality TV and Swiss army knives. Most of all, I love to procrastinate.
@@ -10,6 +13,9 @@ I suffered a loss at the very end of 2020. I put a lot of work on hold, a lot of
 I love to procrastinate. The result of this procrastination stint: this project.
 
 ### About this project
+
+<iframe src="https://open.spotify.com/embed/track/5EeZuhVQdnUkpCiknMTeoP" width="300" height="80" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+
 This has been a little experimentation using R, RMarkdown and bookdown to create a personal blog where I could upload some of my study notes. It is still a work in progress and it is not to be taken as a reference.
 
 If you are curious about the content of my notes, here are the links to get to them. You can send edit suggestions if needed!
@@ -18,10 +24,10 @@ One last word: the notes are in French. I love English, but not to the point of 
 
 ### My pages
 
+<iframe src="https://open.spotify.com/embed/track/6E0Gc6lAZ3AzDsWoldmHRC" width="300" height="80" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+
 [Régressions](https://pyrrhamide.github.io/regressions)
 
 [Analyses longitudinales](https://pyrrhamide.github.io/analyses-longitudinales)
 
-### De la musique 
 
-<iframe src="https://open.spotify.com/embed/playlist/50mTEASBDhzvJy34lAmUh2" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
