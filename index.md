@@ -1,7 +1,4 @@
-### About moi
-
-<blockquote class="reddit-card" data-card-created="1616349032"><a href="https://www.reddit.com/r/rugbyunion/comments/m9hoqj/feel_guilty_posting_this_after_wales_were_so_good/">Feel guilty posting this after Wales were so good, but it took me ages so....</a> from <a href="http://www.reddit.com/r/rugbyunion">r/rugbyunion</a></blockquote>
-<script async src="//embed.redditmedia.com/widgets/platform.js" charset="UTF-8"></script>
+### About me
 
 I am currently a postgraduate student in Quantified Social Sciences, having previously studied Politics and Quantitative Methods.
 
