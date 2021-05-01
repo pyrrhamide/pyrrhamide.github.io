@@ -1,3 +1,6 @@
+---
+title: About me
+---
 
 I am currently a postgraduate student in Quantified Social Sciences, having previously studied Politics and Quantitative Methods.
 
