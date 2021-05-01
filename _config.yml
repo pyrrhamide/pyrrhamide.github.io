@@ -1,7 +1,12 @@
 title: Pyrrhamide
-author: Pyrrhamide
+author: 
+  name: KF
+  email: email@domain.com
 description: Homepage of my (quite barren) blog.
 
 github_username: pyrrhamide
+twitter_username: []
+
+show_excerpts: false
 
 theme: minima
