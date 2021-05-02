@@ -1,7 +1,9 @@
 ---
-title: About this project
+title: Home
 layout: home
 ---
+
+## About this project
 
 A classmate suggested one of our course directors/lecturers creates a syllabus with all the different methods we learned throughout the degree. I had done something similar for my personal use, which prompted me to improve and share it to help my coursemates out.
 
