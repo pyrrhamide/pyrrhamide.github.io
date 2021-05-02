@@ -5,6 +5,6 @@ description: Homepage of my (quite barren) blog.
 
 github_username: pyrrhamide
 
-show_excerpts: false
+show_excerpts: true
 
 theme: minima
