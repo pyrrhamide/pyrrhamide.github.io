@@ -12,3 +12,5 @@ github_username: pyrrhamide
 show_excerpts: true
 
 theme: minima
+
+favicon: favicon.ico
