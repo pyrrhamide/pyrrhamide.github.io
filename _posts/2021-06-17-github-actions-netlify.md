@@ -1,6 +1,6 @@
 ---
 title: Deploying bookdown on Netlify, using Github Actions
-summary: summary
+summary: Changing my workflow, not building the whole book anymore, winning at life.
 date: 2021-06-17
 ---
 

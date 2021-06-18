@@ -1,5 +1,5 @@
 ---
-title: Going forward with the books
+title: Next steps for the books
 summary: Thoughts on what needs to be completed and improved.
 date: 2021-05-02
 ---
