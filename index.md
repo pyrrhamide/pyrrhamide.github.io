@@ -13,5 +13,5 @@ One last word: the notes are in French.
 
 ## The books
 
-* [Régressions - toutes les méthodes du master](https://pyrrhamide.github.io/regressions),
-* [Analyses longitudinales - retranscription des notes de cours](https://pyrrhamide.github.io/analyses-longitudinales).
+* <a href="https://pyrrhamide.github.io/regressions" target="_blank">Régressions - toutes les méthodes du master</a>,
+* <a href="https://pyrrhamide.github.io/analyses-longitudinales" target="_blank">Analyses longitudinales - retranscription des notes de cours.</a>
